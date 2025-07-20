@@ -5,7 +5,7 @@ import google.generativeai as genai
 import os
 
 # Setup your Gemini API key
-genai.configure(api_key="AIzaSyAqNde-2S1nCT5adgTmXaSlCMximBzmvrU")  # 🔐 Keep secure!
+genai.configure(api_key="")  # 🔐 Keep secure!
 
 app = FastAPI()
 
